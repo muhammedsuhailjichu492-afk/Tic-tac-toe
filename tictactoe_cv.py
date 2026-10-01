@@ -8,14 +8,6 @@ import json
 import math
 import random
 
-# --------------------------------------------------------------------------
-# Optional audio (pygame). The game runs fine with no sound files present;
-# it just stays silent. Drop your own .mp3 files into the sounds/ folder:
-#   sounds/click.mp3   -> played on every valid move
-#   sounds/win.mp3      -> played when someone wins
-#   sounds/draw.mp3     -> played on a draw
-#   sounds/bgm.mp3       -> looping background music
-# --------------------------------------------------------------------------
 try:
     import pygame
 
